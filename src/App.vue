@@ -14,7 +14,7 @@
   <main>
     <router-view/>
   </main>
-  <footer>FOOTER</footer>
+  <footer><router-link to="/footer">aaaaaaaaa</router-link></footer>
 </template>
 
 <style scoped>
