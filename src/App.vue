@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <header>HEADER</header>
+  <header><router-link to="/header">Titulo Gamer</router-link></header>
   <aside>
     <nav class="menu">
       <router-link to="/">Home</router-link>
@@ -14,7 +14,7 @@
   <main>
     <router-view/>
   </main>
-  <footer><router-link to="/footer">aaaaaaaaa</router-link></footer>
+  <footer><router-link to="/footer">Pé</router-link></footer>
 </template>
 
 <style scoped>
