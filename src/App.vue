@@ -6,10 +6,8 @@
 <template>
   <header>HEADER</header>
   <aside>
-    <nav>
+    <nav class="menu">
       <router-link to="/">Home</router-link>
-      <br/>
-      <br/>
       <router-link to="/about">About</router-link>
     </nav>
   </aside>
@@ -19,4 +17,10 @@
   <footer>FOOTER</footer>
 </template>
 
-<style scoped></style>
+<style scoped>
+.menu{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+</style>
